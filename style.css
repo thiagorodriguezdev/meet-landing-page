@@ -16,6 +16,7 @@
 }
 
 body {
+  height: 100vh;
   background-color: var(--white);
 }
 
@@ -214,7 +215,7 @@ button {
   background-image: url(./mobile/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   z-index: -1;
 }
 
