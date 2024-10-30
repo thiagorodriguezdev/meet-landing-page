@@ -1,0 +1,61 @@
+.btn-blue {
+  padding: 1.6rem 4rem;
+  border-radius: 2.9rem;
+  background: var(--cyan-600);
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 150%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: var(--cyan-300);
+}
+
+.btn-blue span {
+  color: var(--btn-blue-hover);
+  margin-left: 0.4rem;
+}
+
+.btn-purple {
+  padding: 1.6rem 4rem;
+  border-radius: 2.9rem;
+  background: var(--purple-600);
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 150%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: var(--btn-purple-hover);
+}
+
+.btn-purple span {
+  color: var(--purple-300);
+}
+
+.number .line {
+  margin: 0 auto;
+  width: 0.1rem;
+  height: 8rem;
+  background: var(--slate-300);
+}
+
+.number .ball {
+  margin: 0 auto;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 99.9rem;
+  border: .1rem solid var(--slate-300);
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 150%;
+  color: var(--slate-600);
+}
