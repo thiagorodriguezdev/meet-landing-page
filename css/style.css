@@ -1,5 +1,3 @@
-
-
 :root {
   --cyan-600: #4d96a9;
   --cyan-300: #8fe3f9;
@@ -13,27 +11,82 @@
   --btn-purple-hover: #b18bdd;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 900;
-  line-height: 110%;
+nav {
+  width: 100%;
+  text-align: center;
+  padding-top: 8rem;
 }
 
-h1 {
-  font-size: 6.4rem;
+.s-hero {
+  padding-top: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12.8rem;
 }
 
-h2 {
-  font-size: 4rem;
+.s-hero .info {
+  text-align: center;
+  max-width: 44.8rem;
 }
 
-h3 {
-  font-size: 1.6rem;
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
+.s-hero .info h1 {
+  margin-bottom: 3.2rem;
+}
+
+.s-hero .info p {
+  margin-bottom: 3.2rem;
+}
+
+.s-content {
+  width: 100%;
+  padding-top: 8.8rem;
+}
+
+.s-content .cards {
+  display: flex;
+  gap: 3.2rem;
+  padding-top: 6.4rem;
+}
+
+.s-content .info {
+  max-width: 54.4rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 6.4rem;
+}
+
+.s-content .info h3 {
+  padding-bottom: 1.6rem;
+}
+
+.s-content .info h2 {
+  padding-bottom: 3.2rem;
+  max-width: 44.5rem;
+  margin: 0 auto;
 }
 
 
 
 
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+  
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 560px) {
+  
+}
