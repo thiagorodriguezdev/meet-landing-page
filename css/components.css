@@ -38,6 +38,11 @@
   color: var(--purple-300);
 }
 
+.number {
+  z-index: 1;
+  position: relative;
+}
+
 .number .line {
   margin: 0 auto;
   width: 0.1rem;

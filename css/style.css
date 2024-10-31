@@ -66,7 +66,34 @@ nav {
   margin: 0 auto;
 }
 
+.footer {
+  padding-top: 7.2rem;
+}
 
+.footer .footer-cta {
+  margin-top: -30px;
+  background-image: url(../assets/img-footer.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.footer-cta .title-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 11.2rem 0;
+}
+
+.footer-cta .title-footer h2 {
+  color: var(--white);
+  max-width: 44.5rem;
+}
+
+.footer-cta .title-footer p {
+  color: var(--white);
+  max-width: 35.5rem;
+}
 
 
 
@@ -76,7 +103,18 @@ nav {
 
 
 @media (max-width: 1200px) {
-
+  .s-hero {
+    gap: 5rem;
+  }
+  .s-hero .info {
+    max-width: 280px;
+  }
+  .s-hero .info h1 {
+    font-size: 40px;
+  }
+  .s-hero .info p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 991px) {
