@@ -38,9 +38,6 @@
   background-color: var(--btn-purple-hover);
 }
 
-.btn-purple span {
-  color: var(--purple-300);
-}
 
 .number {
   z-index: 1;
